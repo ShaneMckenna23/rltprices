@@ -1,0 +1,7 @@
+{
+    "name": "PriceChecker",
+    "version": "0.0.0",
+    "private": true,
+    "main": "./PriceChecker.js"
+  }
+  
