@@ -8,3 +8,15 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: #373737;
+}
+::-webkit-scrollbar-track {
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb {
+  background: #65B077;
+  border-radius: 10px;
+}
