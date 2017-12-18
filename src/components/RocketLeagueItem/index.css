@@ -1,0 +1,16 @@
+.rocket-league-item {
+    display: inline-block;
+    background-color: black;
+    border-radius: 3.5px;
+    border: 1px solid #65B077;
+    width: 150px;
+    margin: 10px;
+    color: white;
+    text-align: center;
+    padding:10px;
+  }
+  
+  .rocket-league-item img{
+    width: 100px;
+    height: 100px;
+  }

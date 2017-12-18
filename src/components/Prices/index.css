@@ -1,0 +1,64 @@
+.price-box {
+    background-color: #373737;
+    height: auto;
+    min-height: 250px;
+    text-align: center;
+  }
+  
+  .price-box h2{
+    color: white;
+    text-align: center;
+  }
+  
+  .price-box button{
+    margin-right: 10px; 
+  }
+  
+  .notification-alert {
+    background-color: #309C49;
+    opacity: 0.8;
+    border-radius: 2px 2px 0px 0px;
+    font-size: 18px;
+    color: white;
+    font-family: 'Abel', sans-serif;
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  .top-head-box{
+    background-color: #65B077;
+    border-right: 0px;
+    border-left: 0px;
+    border-top: 7px;
+    border-bottom: 7px;
+    border-color: #65B077 #65B077;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    opacity: 0.8;
+  }
+  
+  .top-head-box img{
+    display:block;
+    margin:auto;
+  }
+  
+  .no-items {
+    color:white;
+    margin-top: 10px;
+    font-size: 200%;
+  }
+  
+  .search-box{
+    color: white;
+    text-align: center;
+  }
+  
+  .search-box div{
+    width: 25%;
+    margin: 0 auto;
+  }
+  
+  .item-container{
+    padding: 10px;
+    text-align: center;
+  }
