@@ -1,22 +1,33 @@
 import React, { Component } from 'react'
 import {Link} from 'react-router-dom'
 import './index.css'
+import {Navbar,NavItem,MenuItem,Nav,NavDropdown} from 'react-bootstrap'
+import {LinkContainer} from 'react-router-bootstrap'
 
 class NavBar extends Component {
+  
     render () {
         return (
-            <nav className="navbar navbar-toggleable-md">
-                <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
-                </button>
-                <Link className="nav-item nav-link" to="/">RLTPrices</Link>
-                <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div className="navbar-nav">
-                        <Link className="nav-item nav-link" to="/prices">Price Checker</Link>
-                        <Link className="nav-item nav-link" to="/addItem">Add Item</Link>
-                    </div>
-                </div>
-            </nav>
+            <Navbar inverse collapseOnSelect fixedTop>
+            <Navbar.Header>
+                <Navbar.Brand>
+                <LinkContainer to="/">
+                  <a>RLTPrices</a>
+                  </LinkContainer>
+                </Navbar.Brand>
+              <Navbar.Toggle />
+            </Navbar.Header>
+            <Navbar.Collapse>
+              <Nav>
+                <LinkContainer to="/prices"><NavItem eventKey={1}>Price Checker</NavItem></LinkContainer>
+                <LinkContainer to="/giveaway"><NavItem eventKey={2}>Giveaway</NavItem></LinkContainer>
+                <LinkContainer to="/addItem"><NavItem eventKey={5}>Add Item</NavItem></LinkContainer>
+              </Nav>
+              <Nav pullRight>
+                <NavItem eventKey={1}>Login</NavItem>
+              </Nav>
+            </Navbar.Collapse>
+          </Navbar>
         )
     }
 }

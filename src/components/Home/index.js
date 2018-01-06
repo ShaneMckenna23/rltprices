@@ -5,7 +5,7 @@ class Home extends Component {
     render () {
         return (
             <div>
-                <h1>Welcome to HomePage</h1>
+                <h1>Hot Reload</h1>
             </div>
         )
     }

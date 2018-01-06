@@ -25,6 +25,7 @@ ReactDOM.render(
           <Route exact path="/" component={Home}/>
           <Route path="/prices" component={Prices}/>
           <Route path="/addItem" component={AddItem}/>
+          <Route path="/giveaway" component={Home} />
         </Switch>
       </div>
     </Router> 

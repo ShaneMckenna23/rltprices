@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import {FormControl,Button} from 'react-bootstrap'
 import firebase from 'firebase';
-import base from '../../rebase'
+import base from '../../lib/rebase'
 
 class AddItem extends Component {
 

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import RocketLeagueItem from '../RocketLeagueItem'
-import base from '../../rebase.js'
+import base from '../../lib/rebase.js'
 
 class PriceChecker extends Component {
     

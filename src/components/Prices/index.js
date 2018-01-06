@@ -45,7 +45,7 @@ class Prices extends Component {
   render() {
     return (
       <div className="container-fluid">
-        <div className="offset-md-1 col-md-10">
+        <div className="col-md-offset-1 col-md-10">
           <div className="notification-alert">
             Hey there, don't forget to join our <b><a style={{"color": "white"}} href="https://discord.gg/gNBD8h8" >Discord server</a></b>. Click <b><a style={{"color": "white"}} href="https://discord.gg/gNBD8h8">HERE</a></b> to join.
           </div>
